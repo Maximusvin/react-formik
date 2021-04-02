@@ -1,12 +1,12 @@
 import Layout from './components/Layout/Layout';
+import FormBox from './components/Form/FormBox';
 
 import './App.css';
 
 function App() {
   return (
     <Layout>
-      <h1>Home Work #2.2</h1>
-      <div>Hello</div>
+      <FormBox />
     </Layout>
   );
 }
