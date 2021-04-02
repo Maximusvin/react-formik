@@ -1,12 +1,14 @@
 import Layout from './components/Layout/Layout';
-import FormBox from './components/Form/FormBox';
+import Form2 from './components/Form2/Form2';
+import UserForm from './components/UserForm/UserForm';
 
 import './App.css';
 
 function App() {
   return (
     <Layout>
-      <FormBox />
+      <Form2 />
+      {/* <UserForm /> */}
     </Layout>
   );
 }
